@@ -1,0 +1,21 @@
+@import "../../global.scss";
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a26cd;
+    padding: 20px;
+
+    a {
+        margin-left: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    a.active {
+        color: rgba(255, 255, 255, 1);
+    }
+}
