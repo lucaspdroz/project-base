@@ -1,5 +1,5 @@
 import React from 'react';
-import IconChanger from '../components/IconChanger';
+import IconChanger from '../Components/IconChanger';
 
 const Contact = () =>
     <div>

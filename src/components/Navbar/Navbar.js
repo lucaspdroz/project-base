@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './style.scss';
 
-const navbar = () => (
+const Navbar = () => (
     <nav>
         <NavLink exact to="/">
             Home
@@ -15,4 +15,4 @@ const navbar = () => (
     </nav>
 )
 
-export default navbar
+export default Navbar
