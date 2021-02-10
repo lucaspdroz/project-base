@@ -5,10 +5,10 @@ import {
 } from 'react-router-dom';
 
 import './global.scss';
+import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
