@@ -1,10 +1,10 @@
 import React from 'react';
 import IconChanger from '../components/IconChanger';
 
-const contact = () =>
+const Contact = () =>
     <div>
         Contact
         <IconChanger />
     </div>;
 
-export default contact;
+export default Contact;

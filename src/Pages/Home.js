@@ -1,4 +1,4 @@
-const home = ({ title = "props error" }) => (
+const Home = ({ title = "props error" }) => (
     <div>
         <h1>{title}</h1>
         <p>
@@ -7,4 +7,4 @@ const home = ({ title = "props error" }) => (
     </div>
 );
 
-export default home;
+export default Home;
