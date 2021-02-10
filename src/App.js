@@ -18,9 +18,9 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/contact">
-          {/* <Contact /> */}
-        </Route>
+        {/* <Route path="/contact">
+          <Contact />
+        </Route> */}
         <Route exatc path="/">
           <Home title="Um titulo passado por props" />
         </Route>
