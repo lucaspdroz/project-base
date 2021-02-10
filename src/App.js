@@ -1,10 +1,10 @@
-import './global.scss';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
 
+import './global.scss';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
