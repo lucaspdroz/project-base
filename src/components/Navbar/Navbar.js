@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './style.scss';
 
-const Navbar = () => (
+const Navbar = () => {
     <nav>
         <NavLink exact to="/">
             Home
@@ -13,6 +13,6 @@ const Navbar = () => (
             Contact
         </NavLink>
     </nav>
-)
+}
 
 export default Navbar;
